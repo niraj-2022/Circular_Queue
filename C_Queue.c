@@ -5,8 +5,9 @@ int queue[CAPACITY];
 int front=0;rear=0;
 void insert(int);
 void traverse();
-void number();
 void del();
+void number();
+
 
 int main()
 {
@@ -71,7 +72,7 @@ printf("front=%d  rear=%d\n",front,rear);
 
 
 void traverse(){
-if(front==0&&rear==0){
+if(front==0 && rear==0){
     printf("queue is empty\n");
     return;
 }
