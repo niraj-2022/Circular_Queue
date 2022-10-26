@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #define CAPACITY 5
+// comment added in the file
 int queue[CAPACITY];
 int front=0;rear=0;
 void insert(int);
